@@ -1,0 +1,40 @@
+{
+  "projectType": "saas",
+  "projectName": "Networkerlc HR",
+  "projectDescription": "The official handbook for Networkerlc's high-ranking team members, covering policies, quotas, tasks, and operational guides.",
+  "theme": "almond",
+  "primaryColor": "#4F6EF7",
+  "lightColor": "#EEF1FE",
+  "darkColor": "#1E2A6E",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": ["introduction"]
+      },
+      {
+        "group": "Roles & Responsibilities",
+        "pages": ["tasks", "quota", "policies"]
+      },
+      {
+        "group": "Guides",
+        "pages": ["guides/tickets", "guides/reviewing"]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Role-based quota system for Management, Operations, and Executives",
+    "Ticket handling protocols for support and management tickets",
+    "Promotion policies with rank cooldowns and member caps",
+    "Review Board process for staff accountability",
+    "Weekly task assignments for Community Management and Staff Supervision",
+    "Paid advertisement review workflow"
+  ],
+  "publicApiSurface": [
+    "Tasks: Weekly Tasks, Community Management duties, Staff Supervision responsibilities",
+    "Quota: Management (1 hr/week + 250 messages), Operations (no quota), Executives (no quota)",
+    "Policies: Ticket policies, Public Relations policies, Promotion cooldowns and caps",
+    "Guide: Reviewing — organizing dates, assembling Review Board, conducting the review",
+    "Guide: Tickets — confirming purchases, approving/denying paid advertisements"
+  ]
+}
